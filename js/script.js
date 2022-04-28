@@ -47,7 +47,12 @@ for (let i = 0; i < team.length; i++) {
     // STAMPA CON BRACKET NOTATION
 
  console.log(element["name"], element["role"]);
+
+ const milestone2 = document.getElementById('milestone2');
+
+ milestone2.innerHTML += element.name + "<br>"+ element.role + "<br>" + element.image + "<br>";
 }
+
 
 
 
